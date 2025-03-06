@@ -2,7 +2,7 @@
 
 **Dataset**:  
 The model was trained on English-based email texts for phishing detection.  
-Dataset source: [Zenodo - Phishing Dataset](https://zenodo.org/records/8339691)
+Dataset source: [Curated Dataset made by A. I. Champa, M. F. Rabbi, M. F. Zibran.](https://zenodo.org/records/8339691)
 
 **Overview**:  
 I used **DistilBERT** instead of the base BERT due to performance issues with BERT (accuracy got stuck at 50% after 2 batches). DistilBERT, being a lighter version, worked much better and gave the following results:
@@ -18,6 +18,7 @@ Although the results are strong, there are signs of overfitting, possibly becaus
 
 **Future Considerations**:  
 - More data wrangling to clean the dataset.
+- Finetuining optimization; Implementing LORA to reduce overfitting.
 - Better preprocessing to reduce overfitting.
 
 **Notes**:  
