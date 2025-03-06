@@ -1,7 +1,8 @@
 ### DistilBERT Phishing Detection Model
 
 **Dataset**:  
-The model was trained on English-based email texts for phishing detection.
+The model was trained on English-based email texts for phishing detection.  
+Dataset source: [Zenodo - Phishing Dataset](https://zenodo.org/records/8339691)
 
 **Overview**:  
 I used **DistilBERT** instead of the base BERT due to performance issues with BERT (accuracy got stuck at 50% after 2 batches). DistilBERT, being a lighter version, worked much better and gave the following results:
